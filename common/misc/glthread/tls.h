@@ -152,7 +152,7 @@ typedef union
 
 #if USE_WINDOWS_THREADS
 
-# define WIN32_LEAN_AND_MEAN  /* avoid including junk */
+//# define WIN32_LEAN_AND_MEAN  /* avoid including junk */
 # include <windows.h>
 
 # include "windows-tls.h"
